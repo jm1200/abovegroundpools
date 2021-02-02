@@ -47,10 +47,10 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
         >
           <Thead color="white">
             <Tr>
-              <Th fontSize="16px" fontWeight="bold">
+              <Th color="white" fontSize="16px" fontWeight="bold">
                 Product
               </Th>
-              <Th fontSize="16px" fontWeight="bold">
+              <Th color="white" fontSize="16px" fontWeight="bold">
                 price
               </Th>
             </Tr>
@@ -90,10 +90,10 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
         >
           <Thead color="white">
             <Tr>
-              <Th fontSize="16px" fontWeight="bold">
+              <Th color="white" fontSize="16px" fontWeight="bold">
                 Product
               </Th>
-              <Th fontSize="16px" fontWeight="bold">
+              <Th color="white" fontSize="16px" fontWeight="bold">
                 price
               </Th>
             </Tr>
