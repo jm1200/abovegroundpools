@@ -16,7 +16,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
       position={["relative", "relative", "relative", "fixed"]}
     >
       <Flex
-        w={["100%", "100%", "97vw", "90vw"]}
+        w={["100%", "100%", "97vw", "92vw"]}
         margin="auto"
         p={["20px", "10px", 0, 0]}
         direction={["column", "row", "column", "row"]}
@@ -31,8 +31,8 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
           <Link href="http://www.completepool.ca/">
             <Img
               margin={["0 auto 20px auto", "0 auto"]}
-              h={["30px", "35px", "40px", "40px"]}
-              w={["90%", "90%", "90%", "100%"]}
+              h={["30px", "30px", "30px", "30px"]}
+              w={["90%", "90%", "80%", "80%"]}
               // objectFit="cover"
               src="/images/poolIcon.png"
               alt="Complete Pool Logo"
