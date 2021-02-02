@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, Stack, useTheme } from "@chakra-ui/react";
+import { Box, Flex, Img, Link, Stack, useTheme } from "@chakra-ui/react";
 import { MdPhone, MdEmail } from "react-icons/md";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { IoMdCar } from "react-icons/io";
@@ -16,7 +16,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
       position={["relative", "relative", "relative", "fixed"]}
     >
       <Flex
-        w={["100%", "90vw", "90vw", "90vw"]}
+        w={["100%", "100%", "97vw", "90vw"]}
         margin="auto"
         p={["20px", "10px", 0, 0]}
         direction={["column", "row", "column", "row"]}
@@ -24,16 +24,15 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
       >
         <Flex
           w="100%"
-          mr="50px"
           align="center"
-          py="10px"
           justify={["center", "center", "center", "flex-start"]}
+          margin="20px auto"
         >
           <Link href="http://www.completepool.ca/">
-            <Image
-              h={["60px", "60px", "50px"]}
-              minW="300px"
-              w={["300px", "300px", "450px", "600px"]}
+            <Img
+              margin={["0 auto 20px auto", "0 auto"]}
+              h={["30px", "35px", "40px", "40px"]}
+              w={["90%", "90%", "90%", "100%"]}
               // objectFit="cover"
               src="/images/poolIcon.png"
               alt="Complete Pool Logo"

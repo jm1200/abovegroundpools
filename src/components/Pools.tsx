@@ -10,10 +10,10 @@ export const Pools: React.FC<PoolsProps> = ({}) => {
     (manufacturer) => content.manufacturers[manufacturer as Manufacturer]
   );
   return (
-    <Stack spacing={8}>
+    <Stack spacing={8} px={5}>
       {manufacturesArray.map((manufacturer) => {
         return (
-          <Box key={manufacturer.cardImgSrc} mt="-100px">
+          <Box key={manufacturer.cardImgSrc}>
             <PoolCard
               imgAltText={manufacturer.cardImgAltText}
               src={manufacturer.cardImgSrc}

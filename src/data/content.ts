@@ -18,6 +18,11 @@ export type Manufacturer =
   | "atlantic"
   | "aquaLeader";
 
+export interface PackageDetail {
+  feature: string;
+  price: string;
+}
+
 export interface Content {
   manufacturers: {
     southPort: ManufacturerCardData;
@@ -25,6 +30,10 @@ export interface Content {
     tivoli: ManufacturerCardData;
     atlantic: ManufacturerCardData;
     aquaLeader: ManufacturerCardData;
+  };
+  packageDetails: {
+    included: PackageDetail[];
+    optional: PackageDetail[];
   };
 }
 
@@ -99,5 +108,46 @@ export const content: Content = {
         { shape: "Oval", size: " 18' x 33'", price: "$6699" },
       ],
     },
+  },
+
+  packageDetails: {
+    included: [
+      { feature: "Above Ground Pool Kit", price: "Included!" },
+      {
+        feature: "20 mil Deys pool liner - 10 year warranty!",
+        price: "Included!",
+      },
+      { feature: "1hp Hayward Ultra Flow Pump", price: "Included!" },
+      {
+        feature: "Hayward Pro Series Sand Filter, sand included",
+        price: "Included!",
+      },
+      { feature: "Skimmer/Return/Gaskets", price: "Included!" },
+      { feature: "Olympic Deck Ladder", price: "Included!" },
+      { feature: "Vacuum Pole, Vacuum Head & Hose", price: "Included!" },
+      { feature: "Pool Brush, Leaf Skimmer", price: "Included!" },
+      {
+        feature: "Plumbing Kit (Flexhose, Clamps & Poly Fittings)",
+        price: "Included!",
+      },
+      { feature: "25' Backwash Hose", price: "Included!" },
+      { feature: "Instruction Manual & DVD", price: "Included!" },
+      { feature: "Chemical Test Strips", price: "Included!" },
+    ],
+    optional: [
+      { feature: "A-Frame Ladder", price: "$200" },
+      {
+        feature: "Hayward AquaTrol Salt System",
+        price: "$749",
+      },
+      { feature: "Hayward Chlorometer", price: "$99" },
+      {
+        feature: "E-Pool Natural Chemicals",
+        price: "$99",
+      },
+      { feature: "Chemical SOMETHING??", price: "$49" },
+      { feature: "Solar Blanket", price: "*Call for price*" },
+      { feature: "Winter Cover", price: "*Call for price*" },
+    ],
   },
 };
