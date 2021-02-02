@@ -45,7 +45,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
           borderRadius="5px"
           color="white"
         >
-          <Thead>
+          <Thead color="white">
             <Tr>
               <Th fontSize="16px" fontWeight="bold">
                 Product
@@ -88,7 +88,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
           borderRadius="5px"
           color="white"
         >
-          <Thead>
+          <Thead color="white">
             <Tr>
               <Th fontSize="16px" fontWeight="bold">
                 Product
