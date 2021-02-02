@@ -6,13 +6,44 @@ import { PackageDetails } from "../components/PackageDetails";
 import { PoolCard } from "../components/PoolCard";
 import { Pools } from "../components/Pools";
 import { content, Manufacturer } from "../data/content";
-
-// import Head  from 'next/head'
+import Head from "next/head";
 
 const Index = () => {
+  const url = "https://abovegroundpoolscanada.ca";
   return (
     <>
-      {/* TODO HEAD */}
+      <Head>
+        <title>Above Ground Pools Canada</title>
+        <meta name="title" content="Above Ground Pools Canada" />
+        <meta
+          name="description"
+          content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="robots" content="index, follow" />
+        <meta charSet="UTF-8" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content="Above Ground Pools Canada" />
+        <meta
+          property="og:description"
+          content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
+        />
+        <meta property="og:image" content="/images/facebook-abovegrounds.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={url} />
+        <meta property="twitter:title" content="Above Ground Pools Canada" />
+        <meta
+          property="twitter:description"
+          content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
+        />
+        <meta
+          property="twitter:image"
+          content="/images/facebook-abovegrounds.png"
+        />
+      </Head>
       <Box
         position="relative"
         bgColor="gray.200"

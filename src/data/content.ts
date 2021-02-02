@@ -39,44 +39,6 @@ export interface Content {
 
 export const content: Content = {
   manufacturers: {
-    southPort: {
-      cardImgSrc: "/images/southPort.png",
-      cardImgAltText: "South Port Above Ground Pool",
-      manufacturer: "South Port",
-      pools: [
-        { shape: "Round", size: " 15'", price: "$1999" },
-        { shape: "Round", size: " 18'", price: "$2299" },
-        { shape: "Round", size: " 21'", price: "$2599" },
-        { shape: "Round", size: " 24'", price: "$2799" },
-        { shape: "Oval", size: " 15' x 30'", price: "$3699" },
-      ],
-    },
-    sovana: {
-      cardImgSrc: "/images/sovana.png",
-      cardImgAltText: "Sovana Above Ground Pool",
-      manufacturer: "Sovana",
-      pools: [
-        { shape: "Round", size: " 15'", price: "$2599" },
-        { shape: "Round", size: " 18'", price: "$2799" },
-        { shape: "Round", size: " 21'", price: "$2999" },
-        { shape: "Round", size: " 24'", price: "$3199" },
-        { shape: "Oval", size: " 12' x 23'", price: "$3999" },
-        { shape: "Oval", size: " 15' x 30'", price: "$4899" },
-      ],
-    },
-    tivoli: {
-      cardImgSrc: "/images/tivoli.png",
-      cardImgAltText: "Tivoli Above Ground Pool",
-      manufacturer: "Tivoli",
-      pools: [
-        { shape: "Round", size: " 15'", price: "$2699" },
-        { shape: "Round", size: " 18'", price: "$2999" },
-        { shape: "Round", size: " 21'", price: "$3199" },
-        { shape: "Round", size: " 24'", price: "$3399" },
-        { shape: "Oval", size: " 12' x 24'", price: "$4499" },
-        { shape: "Oval", size: " 15' x 30'", price: "$5299" },
-      ],
-    },
     atlantic: {
       cardImgSrc: "/images/atlantic.png",
       cardImgAltText: "Atlantic Above Ground Pool",
@@ -106,6 +68,44 @@ export const content: Content = {
         { shape: "Oval", size: " 12' x 23'", price: "$5399" },
         { shape: "Oval", size: " 15' x 30'", price: "$6499" },
         { shape: "Oval", size: " 18' x 33'", price: "$6699" },
+      ],
+    },
+    tivoli: {
+      cardImgSrc: "/images/tivoli.png",
+      cardImgAltText: "Tivoli Above Ground Pool",
+      manufacturer: "Tivoli",
+      pools: [
+        { shape: "Round", size: " 15'", price: "$2699" },
+        { shape: "Round", size: " 18'", price: "$2999" },
+        { shape: "Round", size: " 21'", price: "$3199" },
+        { shape: "Round", size: " 24'", price: "$3399" },
+        { shape: "Oval", size: " 12' x 24'", price: "$4499" },
+        { shape: "Oval", size: " 15' x 30'", price: "$5299" },
+      ],
+    },
+    southPort: {
+      cardImgSrc: "/images/southPort.png",
+      cardImgAltText: "South Port Above Ground Pool",
+      manufacturer: "South Port",
+      pools: [
+        { shape: "Round", size: " 15'", price: "$1999" },
+        { shape: "Round", size: " 18'", price: "$2299" },
+        { shape: "Round", size: " 21'", price: "$2599" },
+        { shape: "Round", size: " 24'", price: "$2799" },
+        { shape: "Oval", size: " 15' x 30'", price: "$3699" },
+      ],
+    },
+    sovana: {
+      cardImgSrc: "/images/sovana.png",
+      cardImgAltText: "Sovana Above Ground Pool",
+      manufacturer: "Sovana",
+      pools: [
+        { shape: "Round", size: " 15'", price: "$2599" },
+        { shape: "Round", size: " 18'", price: "$2799" },
+        { shape: "Round", size: " 21'", price: "$2999" },
+        { shape: "Round", size: " 24'", price: "$3199" },
+        { shape: "Oval", size: " 12' x 23'", price: "$3999" },
+        { shape: "Oval", size: " 15' x 30'", price: "$4899" },
       ],
     },
   },
@@ -145,7 +145,7 @@ export const content: Content = {
         feature: "E-Pool Natural Chemicals",
         price: "$99",
       },
-      { feature: "Chemical SOMETHING??", price: "$49" },
+      { feature: "Chemical Start-Up", price: "$49" },
       { feature: "Solar Blanket", price: "*Call for price*" },
       { feature: "Winter Cover", price: "*Call for price*" },
     ],
