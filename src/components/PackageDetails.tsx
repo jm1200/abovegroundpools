@@ -38,7 +38,13 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
         >
           Your Compete Pool Above Ground package includes:
         </Text>
-        <Table size="md" bgColor="gray.800" p={5} borderRadius="5px">
+        <Table
+          size="md"
+          bgColor="gray.800"
+          p={5}
+          borderRadius="5px"
+          color="white"
+        >
           <Thead>
             <Tr>
               <Th fontSize="16px" fontWeight="bold">
@@ -75,7 +81,13 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
         >
           Your Compete Pool Above Ground Optional Add-Ons:
         </Text>
-        <Table size="md" bgColor="blue.800" p={5} borderRadius="5px">
+        <Table
+          size="md"
+          bgColor="blue.800"
+          p={5}
+          borderRadius="5px"
+          color="white"
+        >
           <Thead>
             <Tr>
               <Th fontSize="16px" fontWeight="bold">
