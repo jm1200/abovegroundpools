@@ -28,7 +28,7 @@ export const PriceTable: React.FC<PriceTableProps> = ({
         textAlign="center"
         color="white"
         p="5px"
-        fontSize="14px"
+        fontSize="18px"
         fontWeight="bold"
       >
         {chartTitle}'s Pools
@@ -37,9 +37,15 @@ export const PriceTable: React.FC<PriceTableProps> = ({
         {/* <TableCaption>* Millivolt Standing Pilot Model</TableCaption> */}
         <Thead>
           <Tr>
-            <Th textAlign="center">Thermal Units</Th>
-            <Th textAlign="center">Model</Th>
-            <Th textAlign="center">Price</Th>
+            <Th color="gray.100" textAlign="center">
+              Shape
+            </Th>
+            <Th color="gray.100" textAlign="center">
+              Size
+            </Th>
+            <Th color="gray.100" textAlign="center">
+              Price
+            </Th>
           </Tr>
         </Thead>
 
