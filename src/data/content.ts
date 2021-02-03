@@ -117,7 +117,7 @@ export const content: Content = {
         feature: "20 mil Deys pool liner - 10 year warranty!",
         price: "Included!",
       },
-      { feature: "1hp Hayward Ultra Flow Pump", price: "Included!" },
+      { feature: "1HP Hayward Ultra Flow Pump", price: "Included!" },
       {
         feature: "Hayward Pro Series Sand Filter, sand included",
         price: "Included!",
