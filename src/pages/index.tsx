@@ -10,6 +10,7 @@ import Head from "next/head";
 
 const Index = () => {
   const url = "https://abovegroundpoolscanada.ca";
+  const ogImg = "/images/facebook-abovegrounds.jpg";
   return (
     <>
       <Head>
@@ -19,6 +20,7 @@ const Index = () => {
           name="description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
+        <meta name="keywords" content="pool, heaters, canada" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="robots" content="index, follow" />
         <meta charSet="UTF-8" />
@@ -30,7 +32,7 @@ const Index = () => {
           property="og:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta property="og:image" content="/images/facebook-abovegrounds.png" />
+        <meta property="og:image" content={ogImg} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
@@ -39,10 +41,7 @@ const Index = () => {
           property="twitter:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta
-          property="twitter:image"
-          content="/images/facebook-abovegrounds.png"
-        />
+        <meta property="twitter:image" content={ogImg} />
       </Head>
       <Box
         position="relative"
