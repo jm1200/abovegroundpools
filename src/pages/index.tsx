@@ -32,7 +32,7 @@ const Index = () => {
           property="og:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta property="og:image" content={ogImg} />
+        <meta property="og:image:secure" content={ogImg} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
