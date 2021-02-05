@@ -84,7 +84,7 @@ export const content: Content = {
       ],
     },
     southPort: {
-      cardImgSrc: "/images/southPort.jpg",
+      cardImgSrc: "/images/southport.jpg",
       cardImgAltText: "South Port Above Ground Pool",
       manufacturer: "South Port",
       pools: [
