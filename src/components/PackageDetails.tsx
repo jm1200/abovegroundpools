@@ -25,8 +25,9 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
     <Stack
       direction={["column", "column", "column", "row"]}
       justifyContent="center"
+      bgColor="gray.200"
     >
-      <Box w="100%">
+      <Box w="100%" bgColor="white" p="10px" boxShadow="lg" borderRadius="5px">
         <Text
           w="70%"
           margin="auto"
@@ -69,9 +70,9 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
           </Tbody>
         </Table>
       </Box>
-      <Box p={5}>
+      <Box p="10px" bgColor="white" borderRadius="5px">
         <Text
-          w="70%"
+          w="90%"
           margin="auto"
           textAlign="center"
           color="black"

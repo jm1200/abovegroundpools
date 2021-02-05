@@ -1,5 +1,6 @@
-import { Stack, Box } from "@chakra-ui/react";
+import { Stack, Box, SimpleGrid } from "@chakra-ui/react";
 import { content, Manufacturer } from "../data/content";
+import { HeaterCard } from "./HeaterCard";
 
 import { PoolCard } from "./PoolCard";
 
@@ -10,7 +11,7 @@ export const Pools: React.FC<PoolsProps> = ({}) => {
     (manufacturer) => content.manufacturers[manufacturer as Manufacturer]
   );
   return (
-    <Stack spacing={8} px={5}>
+    <SimpleGrid spacing={8} columns={[1, 1, 1, 2]} px={5}>
       {manufacturesArray.map((manufacturer) => {
         return (
           <Box key={manufacturer.cardImgSrc}>
@@ -23,6 +24,7 @@ export const Pools: React.FC<PoolsProps> = ({}) => {
           </Box>
         );
       })}
-    </Stack>
+      <HeaterCard />
+    </SimpleGrid>
   );
 };

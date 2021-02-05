@@ -40,9 +40,9 @@ export interface Content {
 export const content: Content = {
   manufacturers: {
     atlantic: {
-      cardImgSrc: "/images/atlantic.png",
+      cardImgSrc: "/images/atlantic.jpg",
       cardImgAltText: "Atlantic Above Ground Pool",
-      manufacturer: "Atlantic",
+      manufacturer: "Generation",
       pools: [
         { shape: "Round", size: " 15'", price: "$2299" },
         { shape: "Round", size: " 18'", price: "$2799" },
@@ -55,7 +55,7 @@ export const content: Content = {
       ],
     },
     aquaLeader: {
-      cardImgSrc: "/images/aqualLeader.png",
+      cardImgSrc: "/images/aqualLeader.jpg",
       cardImgAltText: "Aqual Leader Above Ground Pool",
       manufacturer: "Aqua Leader",
       pools: [
@@ -71,7 +71,7 @@ export const content: Content = {
       ],
     },
     tivoli: {
-      cardImgSrc: "/images/tivoli.png",
+      cardImgSrc: "/images/tivoli.jpg",
       cardImgAltText: "Tivoli Above Ground Pool",
       manufacturer: "Tivoli",
       pools: [
@@ -84,7 +84,7 @@ export const content: Content = {
       ],
     },
     southPort: {
-      cardImgSrc: "/images/southPort.png",
+      cardImgSrc: "/images/southPort.jpg",
       cardImgAltText: "South Port Above Ground Pool",
       manufacturer: "South Port",
       pools: [
@@ -96,7 +96,7 @@ export const content: Content = {
       ],
     },
     sovana: {
-      cardImgSrc: "/images/sovana.png",
+      cardImgSrc: "/images/sovana.jpg",
       cardImgAltText: "Sovana Above Ground Pool",
       manufacturer: "Sovana",
       pools: [

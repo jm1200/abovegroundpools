@@ -17,12 +17,12 @@ export const PoolCard: React.FC<IPoolCardProps> = ({
   chartTitle,
 }) => {
   return (
-    <Stack direction={["column", "column", "row"]} spacing="0" boxShadow="lg">
+    <Stack direction={["column", "column"]} spacing="0" boxShadow="lg">
       <Img
         boxSize={["100%"]}
         objectFit="cover"
         src={src}
-        alt="Segun Adebayo"
+        alt={imgAltText}
         borderTopRightRadius={["5px", "0"]}
         borderBottomRightRadius={["0"]}
         borderTopLeftRadius={["5px"]}

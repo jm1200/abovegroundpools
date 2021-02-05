@@ -11,16 +11,17 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
   const textSize = "1.1em";
   return (
     <Box
-      bgColor="white"
+      bgColor="gray.300"
       w="100%"
       position={["relative", "relative", "relative", "fixed"]}
+      boxShadow="md"
     >
       <Flex
         w={["100%", "100%", "97vw", "92vw"]}
         margin="auto"
         p={["20px", "10px", 0, 0]}
         direction={["column", "row", "column", "row"]}
-        bgColor="white"
+        bgColor="gray.300"
       >
         <Flex
           w="100%"

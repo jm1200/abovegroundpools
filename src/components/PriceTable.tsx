@@ -31,9 +31,9 @@ export const PriceTable: React.FC<PriceTableProps> = ({
         fontSize="18px"
         fontWeight="bold"
       >
-        {chartTitle}'s Pools
+        {chartTitle} Pools
       </Text>
-      <Table w="100%" size="sm">
+      <Table w="100%" minH={["auto", "auto", "auto", "400px"]} size="sm">
         {/* <TableCaption>* Millivolt Standing Pilot Model</TableCaption> */}
         <Thead>
           <Tr>

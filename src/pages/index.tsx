@@ -55,19 +55,20 @@ const Index = () => {
         <Image
           w="100%"
           pt={["0", "0", "0", "70px"]}
-          src="/images/poolsCanadaHeroBanner.png"
+          src="/images/poolsCanadaHeroBanner.jpg"
           alt="Pools canada hero"
+          boxShadow="md"
         />
         <Flex
           w={["100%", "100%", "100%", "80%"]}
-          margin={["10px auto", "10px auto", "10px auto", "-20px auto"]}
+          margin={["10px auto", "10px auto", "10px auto", "20px auto"]}
           justifyContent="center"
         >
           <Pools />
         </Flex>
         <Box
           maxW="80%"
-          margin={["50px auto", "100px auto"]}
+          margin={["50px auto"]}
           justify="center"
           backgroundColor="white"
           borderRadius="5px"
@@ -91,8 +92,8 @@ const Index = () => {
           mt="40px"
           backgroundColor="white"
           borderRadius="5px"
-          boxShadow="lg"
           p={["0", "0", "10px", "10px"]}
+          bgColor="gray.200"
         >
           <PackageDetails />
         </Box>
