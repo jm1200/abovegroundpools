@@ -20,7 +20,13 @@ interface IHeaterCardProps {}
 export const HeaterCard: React.FC<IHeaterCardProps> = ({}) => {
   const { additionalProducts } = content;
   return (
-    <Stack direction={["column", "column"]} spacing="0" boxShadow="lg">
+    <Stack
+      direction={["column", "column"]}
+      spacing="0"
+      boxShadow="lg"
+      w={["90%", "90%", "90%", "650px"]}
+      margin="auto"
+    >
       <Img
         boxSize={["100%"]}
         objectFit="cover"
@@ -70,9 +76,9 @@ export const HeaterCard: React.FC<IHeaterCardProps> = ({}) => {
             </Thead>
 
             <Tbody color="gray.100">
-              {additionalProducts.map((prod) => {
+              {additionalProducts.map((prod, i) => {
                 return (
-                  <Tr key={prod.name}>
+                  <Tr key={i}>
                     <Td textAlign="center">{prod.name}</Td>
                     <Td textAlign="center">{prod.detail}</Td>
                     <Td textAlign="center">{prod.price}</Td>

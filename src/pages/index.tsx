@@ -92,13 +92,13 @@ const Index = () => {
           </Text>
         </Box>
         <Box
-          w={["95%", "100%", "80%", "80%"]}
+          w={["100%", "100%", "80%", "80%"]}
           margin="auto"
           justify="center"
           mt="40px"
           backgroundColor="white"
           borderRadius="5px"
-          p={["0", "0", "10px", "10px"]}
+          p={["5px", "0", "10px", "10px"]}
           bgColor="gray.200"
         >
           <PackageDetails />

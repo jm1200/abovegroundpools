@@ -17,7 +17,13 @@ export const PoolCard: React.FC<IPoolCardProps> = ({
   chartTitle,
 }) => {
   return (
-    <Stack direction={"column"} spacing="0" boxShadow="lg" w="650px">
+    <Stack
+      direction={"column"}
+      spacing="0"
+      boxShadow="lg"
+      w={["90%", "90%", "90%", "650px"]}
+      margin="auto"
+    >
       <Img
         boxSize={["100%"]}
         objectFit="cover"

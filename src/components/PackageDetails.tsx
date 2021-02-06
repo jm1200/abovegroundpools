@@ -27,7 +27,13 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({}) => {
       justifyContent="center"
       bgColor="gray.200"
     >
-      <Box w="100%" bgColor="white" p="10px" boxShadow="lg" borderRadius="5px">
+      <Box
+        w="100%"
+        bgColor="white"
+        p={["0", "0", "10px", "10px"]}
+        boxShadow="lg"
+        borderRadius="5px"
+      >
         <Text
           w="70%"
           margin="auto"
