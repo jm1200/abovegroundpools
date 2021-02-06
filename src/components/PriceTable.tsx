@@ -18,10 +18,10 @@ export const PriceTable: React.FC<PriceTableProps> = ({
       minH={["auto", "100%"]}
       display="block"
       bgColor="gray.800"
-      borderTopRightRadius={["0", "5px"]}
+      borderTopRightRadius={["0"]}
       borderBottomRightRadius={["5px"]}
       borderTopLeftRadius={["0"]}
-      borderBottomLeftRadius={["5px", "0"]}
+      borderBottomLeftRadius={["5px"]}
     >
       <Text
         w="100%"

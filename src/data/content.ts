@@ -31,10 +31,12 @@ export interface Content {
     atlantic: ManufacturerCardData;
     aquaLeader: ManufacturerCardData;
   };
+  additionalProducts: { name: string; detail: string; price: string }[];
   packageDetails: {
     included: PackageDetail[];
     optional: PackageDetail[];
   };
+  poolpics: { desc: string; src: string }[];
 }
 
 export const content: Content = {
@@ -109,6 +111,15 @@ export const content: Content = {
       ],
     },
   },
+  additionalProducts: [
+    { name: "Raypak Heater", detail: "156A 156,000BTU", price: "$1549" },
+    { name: "Raypak Heater", detail: "206A 206,000BTU", price: "$1999" },
+    { name: "Hayward Aqual Trol Salt Water System", detail: "", price: "$379" },
+    { name: "C-Pool Minerals", detail: "", price: "$" },
+    { name: "Olympic Ladder", detail: "", price: "Included!" },
+    { name: "Deck Ladder", detail: "", price: "$" },
+    { name: "A-Frame Ladder", detail: "", price: "$" },
+  ],
 
   packageDetails: {
     included: [
@@ -150,4 +161,40 @@ export const content: Content = {
       { feature: "Winter Cover", price: "*Call for price*" },
     ],
   },
+  poolpics: [
+    {
+      desc: "Atlantic Generation - 24'",
+      src: "/images/poolpics/generation24.1poolinstall2020.jpg",
+    },
+    {
+      desc: "Atlantic Generation - 24'",
+      src: "/images/poolpics/generation24.2poolinstall2020.jpg",
+    },
+    {
+      desc: "Aqua Leader Influence - 15'",
+      src: "/images/poolpics/influence15.1pool install 2020.jpg",
+    },
+    {
+      desc: "Aqua Leader Influence - 15'",
+      src: "/images/poolpics/influence15poolinstall2020.jpg",
+    },
+
+    {
+      desc: "Atlantic Tivoli - 21'",
+      src: "/images/poolpics/tivili21.1poolinstall2020.jpg",
+    },
+    {
+      desc: "Atlantic Tivoli - 21",
+      src: "/images/poolpics/tivoli21poolinstall2020.jpg",
+    },
+    { desc: "unknown - 18'", src: "/images/poolpics/18inf2020install.jpg" },
+    {
+      desc: "Aqua Leader Influence - 18",
+      src: "/images/poolpics/influence18pool ins2020.jpg",
+    },
+    {
+      desc: "Aqua Leader Influence - 18'",
+      src: "/images/poolpics/influence182020insta_.jpg",
+    },
+  ],
 };

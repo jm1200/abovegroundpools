@@ -11,7 +11,7 @@ export const Pools: React.FC<PoolsProps> = ({}) => {
     (manufacturer) => content.manufacturers[manufacturer as Manufacturer]
   );
   return (
-    <SimpleGrid spacing={8} columns={[1, 1, 1, 2]} px={5}>
+    <SimpleGrid spacing={8} columns={[1, 1, 1, 2]}>
       {manufacturesArray.map((manufacturer) => {
         return (
           <Box key={manufacturer.cardImgSrc}>

@@ -7,6 +7,7 @@ import { PoolCard } from "../components/PoolCard";
 import { Pools } from "../components/Pools";
 import { content, Manufacturer } from "../data/content";
 import Head from "next/head";
+import { PoolPics } from "../components/PoolPics";
 
 const Index = () => {
   const url = "https://abovegroundpoolscanada.ca";
@@ -59,7 +60,7 @@ const Index = () => {
           boxShadow="md"
         />
         <Flex
-          w={["100%", "100%", "100%", "80%"]}
+          w={["100%", "100%", "100%", "100%"]}
           margin={["10px auto", "10px auto", "10px auto", "20px auto"]}
           justifyContent="center"
         >
@@ -107,6 +108,28 @@ const Index = () => {
           p={["0", "0", "10px", "10px"]}
         >
           <LinerOptions />
+        </Box>
+        <Box
+          w={["95%", "90%", "90%", "90%"]}
+          margin="auto"
+          justify="center"
+          mt="40px"
+          backgroundColor="white"
+          borderRadius="5px"
+          boxShadow="lg"
+          p={["0", "0", "10px", "10px"]}
+        >
+          {/* <Text
+            w="100%"
+            textAlign="center"
+            color="black"
+            fontSize="24px"
+            fontWeight="bold"
+            mb="20px"
+          >
+            Some of Our Work
+          </Text> */}
+          <PoolPics />
         </Box>
         <Footer />
         <Box w="100%" h="400px"></Box>
