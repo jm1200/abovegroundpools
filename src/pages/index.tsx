@@ -117,9 +117,7 @@ const Index = () => {
           margin="auto"
           justify="center"
           mt="40px"
-          backgroundColor="white"
           borderRadius="5px"
-          boxShadow="lg"
           p={["0", "0", "10px", "10px"]}
         >
           {/* <Text

@@ -8,7 +8,13 @@ export const PoolPics: React.FC<PoolPicsProps> = ({}) => {
     <SimpleGrid columns={[1, 1, 2, 3]} spacingX={2} spacingY={5}>
       {content.poolpics.map((pic, i) => {
         return (
-          <Stack key={i}>
+          <Stack
+            key={i}
+            bgColor="white"
+            p={2}
+            boxShadow="md"
+            borderRadius="5px"
+          >
             <Text w="100%" color="black" fontWeight="bold" textAlign="center">
               {pic.desc}
             </Text>

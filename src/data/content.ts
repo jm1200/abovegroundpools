@@ -115,10 +115,10 @@ export const content: Content = {
     { name: "Raypak Heater", detail: "156A 156,000BTU", price: "$1549" },
     { name: "Raypak Heater", detail: "206A 206,000BTU", price: "$1999" },
     { name: "Hayward Aqual Trol Salt Water System", detail: "", price: "$379" },
-    { name: "C-Pool Minerals", detail: "", price: "$" },
-    { name: "Olympic Ladder", detail: "", price: "Included!" },
-    { name: "Deck Ladder", detail: "", price: "$" },
-    { name: "A-Frame Ladder", detail: "", price: "$" },
+    { name: "C-Pool Minerals", detail: "3L Tub", price: "$99" },
+    { name: "Olympic Deck Ladder", detail: "", price: "Included!" },
+    { name: "Olympic A-Frame Ladder", detail: "", price: "$279" },
+    { name: "Royal Entrance Deck Steps", detail: "", price: "$449" },
   ],
 
   packageDetails: {
@@ -163,6 +163,18 @@ export const content: Content = {
   },
   poolpics: [
     {
+      desc: "Aqua Leader Influence - 18'",
+      src: "/images/poolpics/18inf2020install.jpg",
+    },
+    {
+      desc: "Aqua Leader Influence - 18'",
+      src: "/images/poolpics/influence18pool ins2020.jpg",
+    },
+    {
+      desc: "Aqua Leader Influence - 18'",
+      src: "/images/poolpics/influence182020insta_.jpg",
+    },
+    {
       desc: "Atlantic Generation - 24'",
       src: "/images/poolpics/generation24.1poolinstall2020.jpg",
     },
@@ -184,17 +196,8 @@ export const content: Content = {
       src: "/images/poolpics/tivili21.1poolinstall2020.jpg",
     },
     {
-      desc: "Atlantic Tivoli - 21",
+      desc: "Atlantic Tivoli - 21'",
       src: "/images/poolpics/tivoli21poolinstall2020.jpg",
-    },
-    { desc: "unknown - 18'", src: "/images/poolpics/18inf2020install.jpg" },
-    {
-      desc: "Aqua Leader Influence - 18",
-      src: "/images/poolpics/influence18pool ins2020.jpg",
-    },
-    {
-      desc: "Aqua Leader Influence - 18'",
-      src: "/images/poolpics/influence182020insta_.jpg",
     },
   ],
 };
