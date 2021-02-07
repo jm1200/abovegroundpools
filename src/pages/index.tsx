@@ -10,7 +10,7 @@ import Head from "next/head";
 import { PoolPics } from "../components/PoolPics";
 
 const Index = () => {
-  const url = "https://aroundpools.ca";
+  const url = "https://agroundpools.ca";
   // const ogImg = "/images/facebook-abovegrounds.jpg";
   return (
     <>
@@ -33,10 +33,7 @@ const Index = () => {
           property="og:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta
-          property="og:image:secure"
-          content="/images/facebook-abovegrounds.jpg"
-        />
+        <meta property="og:image" content="/images/facebook-abovegrounds.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
