@@ -59,7 +59,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
             />
             <HeaderCardContainer
               Component={MdEmail}
-              text="completepool@rogers.com"
+              text="completepools@rogers.com"
               textColor="gray.900"
               textFontSize={textSize}
               iconColor="green.800"
