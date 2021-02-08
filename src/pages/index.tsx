@@ -21,7 +21,10 @@ const Index = () => {
           name="description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta name="keywords" content="pool, heaters, canada" />
+        <meta
+          name="keywords"
+          content="above ground pool, above ground pool heaters, above ground pool pumps, above ground pool filters, Aqual Leader, Aqua Leader Influence, Atlantic Generation, Atlantic Tivoli, Atlantic Sovana, Atlantic South Port, Hayward pool heater, Raypak pool heater"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="robots" content="index, follow" />
         <meta charSet="UTF-8" />

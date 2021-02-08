@@ -112,9 +112,9 @@ export const content: Content = {
     },
   },
   additionalProducts: [
-    { name: "Raypak Heater", detail: "156A 156,000BTU", price: "$1549" },
-    { name: "Raypak Heater", detail: "206A 206,000BTU", price: "$1999" },
-    { name: "Hayward Aqual Trol Salt Water System", detail: "", price: "$379" },
+    { name: "Raypak Pool Heater", detail: "156A 156,000BTU", price: "$1549" },
+    { name: "Raypak Pool Heater", detail: "206A 206,000BTU", price: "$1999" },
+    { name: "Hayward Aqual Trol Salt Water System", detail: "", price: "$799" },
     { name: "C-Pool Minerals", detail: "3L Tub", price: "$99" },
     { name: "Olympic Deck Ladder", detail: "", price: "Included!" },
     { name: "Olympic A-Frame Ladder", detail: "", price: "$279" },
@@ -146,19 +146,20 @@ export const content: Content = {
       { feature: "Chemical Test Strips", price: "Included!" },
     ],
     optional: [
-      { feature: "A-Frame Ladder", price: "$200" },
+      { feature: "A-Frame Ladder", price: "$279" },
       {
-        feature: "Hayward AquaTrol Salt System",
-        price: "$749",
+        feature: "Hayward Aqua Trol Salt System",
+        price: "$799",
       },
-      { feature: "Hayward Chlorometer", price: "$99" },
+      { feature: "Hayward Chlorinator", price: "$99" },
       {
-        feature: "E-Pool Natural Chemicals",
+        feature: "C-Pool Natural Minerals, 3L Tub",
         price: "$99",
       },
       { feature: "Chemical Start-Up", price: "$49" },
       { feature: "Solar Blanket", price: "*Call for price*" },
       { feature: "Winter Cover", price: "*Call for price*" },
+      { feature: "Pool Heater", price: "*Call for price*" },
     ],
   },
   poolpics: [
