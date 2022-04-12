@@ -114,13 +114,17 @@ export const content: Content = {
     },
   },
   additionalProducts: [
-    { name: "Raypak Pool Heater", detail: "156A 156,000BTU", price: "$1659" },
-    { name: "Raypak Pool Heater", detail: "206A 206,000BTU", price: "$2199" },
-    { name: "Hayward Aqual Trol Salt Water System", detail: "", price: "$799" },
+    { name: "Raypak Pool Heater", detail: "156A 156,000BTU", price: "$1979" },
+    { name: "Raypak Pool Heater", detail: "206A 206,000BTU", price: "$2599" },
+    {
+      name: "Hayward Aqual Trol Salt Water System",
+      detail: "",
+      price: "$1099",
+    },
     { name: "C-Pool Minerals", detail: "3L Tub", price: "$99" },
     { name: "Olympic Deck Ladder", detail: "", price: "Included!" },
-    { name: "Olympic A-Frame Ladder", detail: "", price: "$359" },
-    { name: "Royal Entrance Deck Steps", detail: "", price: "$549" },
+    { name: "Olympic A-Frame Ladder", detail: "", price: "$459" },
+    { name: "Royal Entrance Deck Steps", detail: "", price: "$699" },
   ],
 
   packageDetails: {
