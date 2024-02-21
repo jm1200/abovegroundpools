@@ -31,7 +31,11 @@ export interface Content {
     atlantic: ManufacturerCardData;
     aquaLeader: ManufacturerCardData;
   };
-  additionalProducts: { name: string; detail: string; price: string }[];
+  additionalProducts: {
+    name: string;
+    detail: string;
+    price: string;
+  }[];
   packageDetails: {
     included: PackageDetail[];
     optional: PackageDetail[];
@@ -114,17 +118,25 @@ export const content: Content = {
     },
   },
   additionalProducts: [
-    { name: "Raypak Pool Heater", detail: "156A 156,000BTU", price: "$1979" },
-    { name: "Raypak Pool Heater", detail: "206A 206,000BTU", price: "$2599" },
+    {
+      name: "Raypak Pool Heater",
+      detail: "156A 156,000BTU",
+      price: "$2099",
+    },
+    {
+      name: "Raypak Pool Heater",
+      detail: "206A 206,000BTU",
+      price: "$2329",
+    },
     {
       name: "Hayward Aqual Trol Salt Water System",
       detail: "",
-      price: "$1099",
+      price: "$1199",
     },
     { name: "C-Pool Minerals", detail: "3L Tub", price: "$99" },
     { name: "Olympic Deck Ladder", detail: "", price: "Included!" },
-    { name: "Olympic A-Frame Ladder", detail: "", price: "$459" },
-    { name: "Royal Entrance Deck Steps", detail: "", price: "$699" },
+    { name: "Olympic A-Frame Ladder", detail: "", price: "$479" },
+    { name: "Royal Entrance Deck Steps", detail: "", price: "$569" },
   ],
 
   packageDetails: {
@@ -141,7 +153,10 @@ export const content: Content = {
       },
       { feature: "Skimmer/Return/Gaskets", price: "Included!" },
       { feature: "Olympic Deck Ladder", price: "Included!" },
-      { feature: "Vacuum Pole, Vacuum Head & Hose", price: "Included!" },
+      {
+        feature: "Vacuum Pole, Vacuum Head & Hose",
+        price: "Included!",
+      },
       { feature: "Pool Brush, Leaf Skimmer", price: "Included!" },
       {
         feature: "Plumbing Kit (Flexhose, Clamps & Poly Fittings)",
@@ -152,12 +167,12 @@ export const content: Content = {
       { feature: "Chemical Test Strips", price: "Included!" },
     ],
     optional: [
-      { feature: "A-Frame Ladder", price: "$359" },
+      { feature: "A-Frame Ladder", price: "$479" },
       {
         feature: "Hayward Aqua Trol Salt System",
-        price: "$799",
+        price: "$1199",
       },
-      { feature: "Hayward Chlorinator", price: "$99" },
+      { feature: "Hayward Chlorinator", price: "$139" },
       {
         feature: "C-Pool Natural Minerals, 3L Tub",
         price: "$99",
