@@ -25,22 +25,34 @@ const Index = () => {
           name="keywords"
           content="above ground pool, above ground pool heaters, above ground pool pumps, above ground pool filters, Aqual Leader, Aqua Leader Influence, Atlantic Generation, Atlantic Tivoli, Atlantic Sovana, Atlantic South Port, Hayward pool heater, Raypak pool heater"
         />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width"
+        />
         <meta name="robots" content="index, follow" />
         <meta charSet="UTF-8" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content={url} />
-        <meta property="og:title" content="Above Ground Pools Canada" />
+        <meta
+          property="og:title"
+          content="Above Ground Pools Canada"
+        />
         <meta
           property="og:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
         />
-        <meta property="og:image" content="/images/facebook-abovegrounds.jpg" />
+        <meta
+          property="og:image"
+          content="/images/facebook-abovegrounds.jpg"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
-        <meta property="twitter:title" content="Above Ground Pools Canada" />
+        <meta
+          property="twitter:title"
+          content="Above Ground Pools Canada"
+        />
         <meta
           property="twitter:description"
           content="Canada's best selection of above ground pools for the lowest price. On Sale now. Proudly serving Canadians for 40 years. Call (519) 636-3123."
@@ -67,12 +79,17 @@ const Index = () => {
         />
         <Flex
           w={["100%", "100%", "100%", "100%"]}
-          margin={["10px auto", "10px auto", "10px auto", "20px auto"]}
+          margin={[
+            "10px auto",
+            "10px auto",
+            "10px auto",
+            "20px auto",
+          ]}
           justifyContent="center"
         >
           <Pools />
         </Flex>
-        <Box
+        <Flex
           maxW="80%"
           margin={["50px auto"]}
           justify="center"
@@ -90,8 +107,8 @@ const Index = () => {
           >
             For more info or to purchase a pool call (519) 636-3123
           </Text>
-        </Box>
-        <Box
+        </Flex>
+        <Flex
           w={["100%", "100%", "80%", "80%"]}
           margin="auto"
           justify="center"
@@ -102,8 +119,8 @@ const Index = () => {
           bgColor="gray.200"
         >
           <PackageDetails />
-        </Box>
-        <Box
+        </Flex>
+        <Flex
           w={["95%", "100%", "50%", "50%"]}
           margin="auto"
           justify="center"
@@ -114,8 +131,8 @@ const Index = () => {
           p={["0", "0", "10px", "10px"]}
         >
           <LinerOptions />
-        </Box>
-        <Box
+        </Flex>
+        <Flex
           w={["95%", "90%", "90%", "90%"]}
           margin="auto"
           justify="center"
@@ -134,7 +151,7 @@ const Index = () => {
             Some of Our Work
           </Text> */}
           <PoolPics />
-        </Box>
+        </Flex>
         <Footer />
         <Box w="100%" h="400px"></Box>
       </Box>
